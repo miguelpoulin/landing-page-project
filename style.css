@@ -85,12 +85,12 @@ button{
 
 .s2 {
     text-align: center;
-    width: 55%;
-    margin: 0 auto;
 }
 
 h2 {
-    height: 100px;
+    height: 125px;
+    color: #1F2937;
+    font-size: 36px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,21 +100,49 @@ h2 {
     height: 225px;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
+    margin-bottom: 100px;
 }
 
 .container {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    width: 150px;
+    width: 175px;
     gap: 5px;
 }
 
 .square {
     border: 3px solid #3882F6;
     border-radius: 15px;
-    height: 150px;
-    width: 150px;
+    height: 175px;
+    width: 175px;
     flex-grow: 0;
+}
+
+.s3 {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.content-s3 {
+    width: 55%;
+    margin: 125px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 22px;
+    color: #1F2937;
+    align-self: flex-end;
 }
