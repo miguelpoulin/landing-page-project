@@ -17,8 +17,11 @@ body {
     align-content: center;
 }
 
-.nav {
+.nav, .content-s1 {
     width: 65%;
+}
+
+.nav {
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -32,7 +35,6 @@ h3, h1 {
 }
 
 .content-s1{
-    width: 65%;
     height: auto;
     margin: 100px;
     display: flex;
@@ -79,4 +81,40 @@ button{
     max-width: 600px;
     height: auto;
     margin-left: 40px;
+}
+
+.s2 {
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+}
+
+h2 {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.squares {
+    height: 225px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 150px;
+    gap: 5px;
+}
+
+.square {
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+    flex-grow: 0;
 }
