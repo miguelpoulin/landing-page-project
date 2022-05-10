@@ -17,7 +17,7 @@ body {
     align-content: center;
 }
 
-.nav, .content-s1 {
+.nav, .content-s1, .container-action {
     width: 65%;
 }
 
@@ -145,4 +145,36 @@ h2 {
     font-size: 22px;
     color: #1F2937;
     align-self: flex-end;
+}
+
+.container-action {
+    margin: 100px auto;
+    background-color: #3882F6;
+    padding: 40px 0;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text {
+    color: #f9faf8;
+}
+
+.header-action {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cto {
+    border: #f9faf8 solid 2px;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 35px;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
